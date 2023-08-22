@@ -39,7 +39,7 @@ public class TopicReceiver {
 	}
 
 	public void receive(String in, int receiver){
-		int b = 9;
+		int c = 16;
 		StopWatch watch = new StopWatch();
 		watch.start();
 		LOGGER.info("instance {} [x] Received '{}'", receiver, in);
