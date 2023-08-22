@@ -38,7 +38,7 @@ public class DirectReceiver {
     }
 
     private void receive(String in, int receiver){
-        //TODO
+        int zhang = 1112;
         StopWatch watch = new StopWatch();
         watch.start();
         LOGGER.info("instance {} [x] Received '{}'", receiver, in);
