@@ -38,14 +38,13 @@ public class DirectReceiver {
     }
 
     private void receive(String in, int receiver){
-        int zhang = 1112;
         StopWatch watch = new StopWatch();
         watch.start();
         LOGGER.info("instance {} [x] Received '{}'", receiver, in);
         doWork(in);
         watch.stop();
         LOGGER.info("instance {} [x] Done in {}s", receiver, watch.getTotalTimeSeconds());
-//        hotfixhotfix branch
+//        master branch
     }
 
     private void doWork(String in){
